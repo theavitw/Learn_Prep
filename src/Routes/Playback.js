@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Playback() {
   const Playback = {
@@ -48,16 +49,21 @@ function Playback() {
       <p>Our advanced recording system captures your interview sessions, allowing you to review and analyze your performance</p>
       {
         Object.keys(Playback).map((key) => (
-          <div className="container_play flexer3">
+          
+          <div className="container_play">
+            
             <div className='play'>
+             <Link>
               <svg width="32" height="38" viewBox="0 0 32 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path id="Polygon 1" d="M32 19L0.499998 37.1865L0.5 0.813466L32 19Z" fill="white" />
               </svg>
               <p className='play_length'>
                 {Playback[key].length}
               </p>
+              </Link>
             </div>
-            <div>
+            <div className = "play_text">
+              <Link className='text-black text-decoration-none'>
               <div>
                 <h3 className="play_title">{Playback[key].title}</h3>
               </div>
@@ -70,8 +76,9 @@ function Playback() {
                   {Playback[key].Time}
                 </span>
               </div>
+              </Link>
             </div>
-            <div className='trash'>
+            <Link className='trash'>
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="Trash">
                   <path id="Vector" d="M27 7H5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -82,7 +89,7 @@ function Playback() {
                 </g>
               </svg>
 
-            </div>
+            </Link>
           </div>
 
         ))

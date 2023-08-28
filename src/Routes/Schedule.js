@@ -74,6 +74,7 @@ class App extends Component {
           <h2>Pick an appropriate Slot</h2>
           <div className="Picker">
             <DayPicker
+              
               defaultValue={"DD"}
               year={this.state.year}
               month={this.state.month}
@@ -89,8 +90,10 @@ class App extends Component {
             />
 
             <MonthPicker
+            
               defaultValue={"MM"}
               value={this.state.month}
+             
               onChange={(month) => {
                 this.setState({ month });
               }}
@@ -117,7 +120,7 @@ class App extends Component {
           {this.state.year &&
             this.state.month &&
             this.state.day &&
-            this.checkdate() && 
+            this.checkdate() &&
             (
               <>
                 {" "}
@@ -151,15 +154,9 @@ class App extends Component {
                       <div className="mb_0">3 Slots</div>
 
                     </div>
-                    <div className="">
+                    <div >
                       <div className="mb_4">
 
-                        <button
-                          className={`option-button ${selectedOption === '10:00 AM' ? 'selected' : ''}`}
-                          onClick={() => this.handleOptionChange('10:00 AM')}
-                        >
-                          10:00 AM
-                        </button>
                         <button
                           className={`option-button ${selectedOption === '11:00 AM' ? 'selected' : ''}`}
                           onClick={() => this.handleOptionChange('11:00 AM')}
@@ -167,10 +164,16 @@ class App extends Component {
                           11:00 AM
                         </button>
                         <button
-                          className={`option-button ${selectedOption === '12:00 PM' ? 'selected' : ''}`}
-                          onClick={() => this.handleOptionChange('12:00 PM')}
+                          className={`option-button ${selectedOption === '11:15 AM' ? 'selected' : ''}`}
+                          onClick={() => this.handleOptionChange('11:15 AM')}
                         >
-                          12:00 PM
+                          11:15 AM
+                        </button>
+                        <button
+                          className={`option-button ${selectedOption === '11:45 AM' ? 'selected' : ''}`}
+                          onClick={() => this.handleOptionChange('11:45 AM')}
+                        >
+                          11:45 AM
                         </button>
 
                       </div>
@@ -195,12 +198,24 @@ class App extends Component {
                       </svg>
 
                       <div className="mb_1">Afternoon</div>
-                      <div className="mb_0">4 Slots</div>
+                      <div className="mb_0">6 Slots</div>
 
                     </div>
-                    <div className="">
+                    <div >
                       <div className="mb_4">
                         {/* Your buttons/radio options */}
+                        <button
+                          className={`option-button ${selectedOption === '12:30 PM' ? 'selected' : ''}`}
+                          onClick={() => this.handleOptionChange('12:30 PM')}
+                        >
+                          12:30 PM
+                        </button>
+                        <button
+                          className={`option-button ${selectedOption === '12:45 PM' ? 'selected' : ''}`}
+                          onClick={() => this.handleOptionChange('12:45 PM')}
+                        >
+                          12:45 PM
+                        </button>
                         <button
                           className={`option-button ${selectedOption === '1:00 PM' ? 'selected' : ''}`}
                           onClick={() => this.handleOptionChange('1:00 PM')}
@@ -208,22 +223,22 @@ class App extends Component {
                           1:00 PM
                         </button>
                         <button
-                          className={`option-button ${selectedOption === '2:00 PM' ? 'selected' : ''}`}
-                          onClick={() => this.handleOptionChange('2:00 PM')}
+                          className={`option-button ${selectedOption === '1:15 PM' ? 'selected' : ''}`}
+                          onClick={() => this.handleOptionChange('1:15 PM')}
                         >
-                          2:00 PM
+                          1:15 PM
                         </button>
                         <button
-                          className={`option-button ${selectedOption === '3:00 PM' ? 'selected' : ''}`}
-                          onClick={() => this.handleOptionChange('3:00 PM')}
+                          className={`option-button ${selectedOption === '1:30 PM' ? 'selected' : ''}`}
+                          onClick={() => this.handleOptionChange('1:30 PM')}
                         >
-                          3:00 PM
+                          1:30 PM
                         </button>
                         <button
-                          className={`option-button ${selectedOption === '4:00 PM' ? 'selected' : ''}`}
-                          onClick={() => this.handleOptionChange('4:00 PM')}
+                          className={`option-button ${selectedOption === '1:45 PM' ? 'selected' : ''}`}
+                          onClick={() => this.handleOptionChange('1:45 PM')}
                         >
-                          4:00 PM
+                          1:45 PM
                         </button>
                       </div>
                     </div>
@@ -240,36 +255,30 @@ class App extends Component {
                       <div className="mb_0">4 Slots</div>
 
                     </div>
-                    <div className="">
+                    <div >
                       <div className="mb_4">
 
                         <button
-                          className={`option-button ${selectedOption === ' 5:00 PM' ? 'selected' : ''}`}
-                          onClick={() => this.handleOptionChange('5:00 PM')}
+                          className={`option-button ${selectedOption === ' 7:15 PM' ? 'selected' : ''}`}
+                          onClick={() => this.handleOptionChange('7:15 PM')}
                         >
-                          5:00 PM
+                          7:15 PM
                         </button>
                         <button
 
-                          className={`option-button ${selectedOption === '6:00 PM' ? 'selected' : ''}`}
-                          onClick={() => this.handleOptionChange('6:00 PM')}
+                          className={`option-button ${selectedOption === '11:15 PM' ? 'selected' : ''}`}
+                          onClick={() => this.handleOptionChange('11:15 PM')}
                         >
-                          6:00 PM
+                          11:15 PM
                         </button>
                         <button
 
-                          className={`option-button ${selectedOption === '7:00 PM' ? 'selected' : ''}`}
-                          onClick={() => this.handleOptionChange('7:00 PM')}
+                          className={`option-button ${selectedOption === '11:45 PM' ? 'selected' : ''}`}
+                          onClick={() => this.handleOptionChange('11:45 PM')}
                         >
-                          7:00 PM
+                          11:45 PM
                         </button>
-                        <button
-
-                          className={`option-button ${selectedOption === '8:00 PM' ? 'selected' : ''}`}
-                          onClick={() => this.handleOptionChange('8:00 PM')}
-                        >
-                          8:00 PM
-                        </button>
+                       
 
                       </div>
 
@@ -289,9 +298,9 @@ class App extends Component {
                         Slot Selected -
                         <span className="text-decoration-underline">{this.Date.day}  {this.Date.month}, {this.Date.year} at {selectedOption}</span>
                       </p>
-                      <NavLink to="./Schedule2.js" onClick={this.handleBookAppointment}  className="text-white text-decoration-none w-100">
+                      <NavLink to="./Schedule2.js" onClick={this.handleBookAppointment} className="text-white text-decoration-none w-100">
                         <button className='sd_2 sd_3 w-100'>
-                        Book Appointment
+                          Book Appointment
                         </button>
                       </NavLink>
                     </div>
@@ -303,11 +312,26 @@ class App extends Component {
           {this.state.year &&
             this.state.month &&
             this.state.day &&
-            !this.checkdate() && (
-              <h2 className="result">
-                {alert(
-                  `Please select a Valid Date`)}
-              </h2>
+            !this.checkdate() && Number(this.state.day) !== this.now.getDate() && (
+              <p  
+              style={{ color: "red", textAlign: "center" }}
+              >
+                
+                  * You Entered a Past Date
+              </p>
+            )}
+            {this.state.year &&
+            this.state.month &&
+            this.state.day &&
+              
+            this.state.month == this.now.getMonth()
+            && Number(this.state.day) === this.now.getDate() && (
+              <p  
+              style={{ color: "red", textAlign: "center" }}
+              >
+                
+                  * You can not book appointment for today
+              </p>
             )}
         </div>
       </>
