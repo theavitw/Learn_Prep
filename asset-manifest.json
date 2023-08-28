@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Learn_Prep/static/css/main.a4a7c573.css",
-    "main.js": "/Learn_Prep/static/js/main.1f15a099.js",
+    "main.css": "/Learn_Prep/static/css/main.77e75dd7.css",
+    "main.js": "/Learn_Prep/static/js/main.cab45600.js",
     "static/js/787.28cb0dcd.chunk.js": "/Learn_Prep/static/js/787.28cb0dcd.chunk.js",
     "static/media/Dashboard1.jpg": "/Learn_Prep/static/media/Dashboard1.7a14c3c1489d4356804b.jpg",
     "index.html": "/Learn_Prep/index.html",
-    "main.a4a7c573.css.map": "/Learn_Prep/static/css/main.a4a7c573.css.map",
-    "main.1f15a099.js.map": "/Learn_Prep/static/js/main.1f15a099.js.map",
+    "main.77e75dd7.css.map": "/Learn_Prep/static/css/main.77e75dd7.css.map",
+    "main.cab45600.js.map": "/Learn_Prep/static/js/main.cab45600.js.map",
     "787.28cb0dcd.chunk.js.map": "/Learn_Prep/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4a7c573.css",
-    "static/js/main.1f15a099.js"
+    "static/css/main.77e75dd7.css",
+    "static/js/main.cab45600.js"
   ]
 }
