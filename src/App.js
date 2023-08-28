@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Profile from './Profile';
+import Dashboard from './Routes/Dashboard';
+import Schedule from './Routes/Schedule';
+import Preparation from './Routes/Preparation';
+import Playback from './Routes/Playback';
+import Account from './Routes/Account';
+import Schedule2 from './Routes/Schedule2';
+import Sidebar from './Sidbar';
+
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Profile />
+      <Sidebar />
+      <Routes>
+        <Route path={"/Dashboard"} element={<Dashboard />}/>
+        <Route path={"/"} element={<Dashboard />}/>
+        <Route path={"/Schedule"} element={<Schedule />} />
+        <Route path={"/Preparation"} element={<Preparation />} />
+        <Route path={"/Playback"} element={<Playback />} />
+        <Route path={"/Account"} element={<Account />} />
+        <Route path={"Schedule/Schedule2.js"} element={<Schedule2 />} />
+
+      
+      </Routes>
     </div>
   );
 }
