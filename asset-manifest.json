@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/learn_Prep/static/css/main.a4a7c573.css",
-    "main.js": "/learn_Prep/static/js/main.453958b8.js",
-    "static/js/787.28cb0dcd.chunk.js": "/learn_Prep/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Dashboard1.jpg": "/learn_Prep/static/media/Dashboard1.7a14c3c1489d4356804b.jpg",
-    "index.html": "/learn_Prep/index.html",
-    "main.a4a7c573.css.map": "/learn_Prep/static/css/main.a4a7c573.css.map",
-    "main.453958b8.js.map": "/learn_Prep/static/js/main.453958b8.js.map",
-    "787.28cb0dcd.chunk.js.map": "/learn_Prep/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Learn_Prep/static/css/main.a4a7c573.css",
+    "main.js": "/Learn_Prep/static/js/main.e93d1731.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Learn_Prep/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Dashboard1.jpg": "/Learn_Prep/static/media/Dashboard1.7a14c3c1489d4356804b.jpg",
+    "index.html": "/Learn_Prep/index.html",
+    "main.a4a7c573.css.map": "/Learn_Prep/static/css/main.a4a7c573.css.map",
+    "main.e93d1731.js.map": "/Learn_Prep/static/js/main.e93d1731.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Learn_Prep/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4a7c573.css",
-    "static/js/main.453958b8.js"
+    "static/js/main.e93d1731.js"
   ]
 }
