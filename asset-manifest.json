@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/learn_prep/static/css/main.a4a7c573.css",
+    "main.js": "/learn_prep/static/js/main.0f131cf5.js",
+    "static/js/787.28cb0dcd.chunk.js": "/learn_prep/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Dashboard1.jpg": "/learn_prep/static/media/Dashboard1.7a14c3c1489d4356804b.jpg",
+    "index.html": "/learn_prep/index.html",
+    "main.a4a7c573.css.map": "/learn_prep/static/css/main.a4a7c573.css.map",
+    "main.0f131cf5.js.map": "/learn_prep/static/js/main.0f131cf5.js.map",
+    "787.28cb0dcd.chunk.js.map": "/learn_prep/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4a7c573.css",
+    "static/js/main.0f131cf5.js"
+  ]
+}
