@@ -59,7 +59,7 @@ function Schedule2() {
               </div>
             </div>
             <div className='mb-3'>
-              <NavLink to="/Preparation" className="text-white text-decoration-none w-100">
+              <NavLink to="/Preparetion" className="text-white text-decoration-none w-100">
                 <button className='sd_2 sd_3'>
                     Go To Preparation
                   </button>
@@ -81,8 +81,9 @@ function Schedule2() {
 
 
         <div className="detailes box">
-          <div className="p-4 " >
-            Instructions <br />
+          <div className="p-4  " >
+            <span className='text-decoration-underline'>Instructions</span>
+             <br />
             <br />
             <ul>
               <li className="contents">
@@ -112,7 +113,6 @@ function Schedule2() {
             </ul>
           </div>
 
-          <div className="border-solid relative h-[581px] shrink-0 border-black border" />
 
         </div>
 

@@ -1,8 +1,7 @@
-import './App.css';
 import Profile from './Profile';
 import Dashboard from './Routes/Dashboard';
 import Schedule from './Routes/Schedule';
-import Preparation from './Routes/Preparation';
+import Preparetion from './Routes/Preparetion';
 import Playback from './Routes/Playback';
 import Account from './Routes/Account';
 import Schedule2 from './Routes/Schedule2';
@@ -19,7 +18,7 @@ function App() {
         <Route path={"/Dashboard"} element={<Dashboard />}/>
         <Route path={"/"} element={<Dashboard />}/>
         <Route path={"/Schedule"} element={<Schedule />} />
-        <Route path={"/Preparation"} element={<Preparation />} />
+        <Route path={"/Preparetion"} element={<Preparetion />} />
         <Route path={"/Playback"} element={<Playback />} />
         <Route path={"/Account"} element={<Account />} />
         <Route path={"Schedule/Schedule2.js"} element={<Schedule2 />} />

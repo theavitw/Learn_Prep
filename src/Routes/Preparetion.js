@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-function Preparation() {
+function Preparetion() {
   return (
     <div className='dashboard aside'>
-      <h1>Lst's See Playbacks Of Some</h1>
+      <h1>Let's See Playbacks Of Some</h1>
       <h2>
         Awesome Interviews
       </h2>
@@ -19,4 +19,4 @@ function Preparation() {
   )
 }
 
-export default Preparation
+export default Preparetion

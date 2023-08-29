@@ -12,9 +12,9 @@ ul {
 
 /* Sidebar.css */
 .sidebar {
-
+    
     width: 20%;
-    height: 100%;
+    height: 100vh;
     position: fixed;
     left: 0;
     top: 0;
@@ -24,23 +24,32 @@ ul {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    
+    
+    align-items: center;
     border-radius: 0.9375rem;
     border: 1px solid #B3B3B3;
     background: #FFF;
     box-shadow: 4px -2px 27px 0px rgba(214, 214, 214, 0.25);
 }
-
+.sidebar div{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
 .sidebar-header {
     font-size: 24px;
-    margin-bottom: 20%;
+    margin: 5% 0 25% 0;
     color: #000;
     text-align: center;
     font-family: Poppins;
     font-size: 2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    
 }
 
 .sidebar-header span {
@@ -315,8 +324,8 @@ ul {
 .Picker * {
     font-family: Product Sans;
     text-align: center;
-    color: rgba(97, 97, 97, 1);
-    border: 1px solod rgba(210, 210, 210, 1);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     width: 7rem;
     height: 2.5em;
     border-radius: 8px;
@@ -470,6 +479,8 @@ ul {
     right: 0;
     padding: 1% 2% 0 0;
 }
+
+
 /* Media query for responsiveness */
 @media (max-width: 768px) {
     .aside {
