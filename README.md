@@ -27,7 +27,7 @@ Follow the steps below to get the Learn_Prep application up and running on your 
 1. Clone this repository to your local machine using:
 
    ```bash
-   git clone https://github.com/your-username/Learn_Prep.git
+   git clone https://github.com/theavitw/Learn_Prep.git
    ```
 
 2. Navigate to the project directory:
@@ -61,7 +61,7 @@ Follow the steps below to get the Learn_Prep application up and running on your 
 
 The main code files are located in the `src` directory. Here's a brief overview:
 
-- `src/components`: Contains the React components.
+- `src/Routes`: Contains the React Routes.
 - `src/App.js`: Main application component.
 - `src/index.js`: Entry point of the application.
 
