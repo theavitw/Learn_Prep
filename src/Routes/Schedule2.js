@@ -6,14 +6,14 @@ function Schedule2() {
   const HandleCancle = () => {
     let a = window.confirm("Are you sure you want to cancel this interview?");
     if (a) {
-     alert("Your interview has been cancelled");
-     window.location.href = "/Schedule";
+      alert("Your interview has been cancelled");
+      window.location.href = "/Schedule";
     }
-    
 
 
 
-   
+
+
 
   }
   return (
@@ -61,11 +61,11 @@ function Schedule2() {
             <div className='mb-3'>
               <NavLink to="/Preparetion" className="text-white text-decoration-none w-100">
                 <button className='sd_2 sd_3'>
-                    Go To Preparation
-                  </button>
+                  Go To Preparation
+                </button>
               </NavLink>
-              <button className='sd_2' 
-              onClick={HandleCancle}
+              <button className='sd_2'
+                onClick={HandleCancle}
               >
                 Cancle Interview
               </button>
@@ -83,7 +83,7 @@ function Schedule2() {
         <div className="detailes box">
           <div className="p-4  " >
             <span className='text-decoration-underline'>Instructions</span>
-             <br />
+            <br />
             <br />
             <ul>
               <li className="contents">
