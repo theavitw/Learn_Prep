@@ -55,7 +55,8 @@ Follow the steps below to get the Learn_Prep application up and running on your 
 ### Technologies Used
 
 - React.js
-- React Bootstrap
+- React Bootstra
+- react-dropdown-date
 
 ## Directory Structure
 
