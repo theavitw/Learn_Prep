@@ -99,8 +99,8 @@ class App extends Component {
 
             <YearPicker
               defaultValue={"YYYY"}
-              start={this.Date.year}
-              end={this.Date.year}
+              start={date.year}
+              end={date.year + 1}
               value={this.state.year}
               onChange={(year) => {
                 this.setState({ year });
